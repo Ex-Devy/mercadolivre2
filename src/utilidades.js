@@ -107,6 +107,23 @@ export const catalogo = [
         arquivo:"mouse-1.jpg",
         menorPreco: true
     },
+    {
+        id:"14",
+        nome:"Esquilo MC Feliz Era do gelo",
+        marca:"MC",
+        preco:19,
+        arquivo:"e-4.jpg",
+        menorPreco: true
+    },
+    {
+        id:"15",
+        nome:"Indomunus Rex Dinossauro Articulado",
+        marca:"Mattel",
+        preco:450,
+        arquivo:"d-2.jpg",
+        menorPreco: false
+    },
+
 ];    
 export function salvarLocalStorage(chave, informacao) {
     localStorage.setItem(chave, JSON.stringify(informacao));
