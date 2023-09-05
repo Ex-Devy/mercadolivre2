@@ -112,16 +112,24 @@ export const catalogo = [
         nome:"Esquilo MC Feliz Era do gelo",
         marca:"MC",
         preco:19,
-        arquivo:"e-4.jpg",
-        menorPreco: true
+        arquivo:"e4.jpg",
+        menorPreco: true,
     },
     {
         id:"15",
         nome:"Indomunus Rex Dinossauro Articulado",
         marca:"Mattel",
         preco:450,
-        arquivo:"d-2.jpg",
-        menorPreco: false
+        arquivo:"d2.jpg",
+        menorPreco: false,
+    },
+    {
+        id:"16",
+        nome:"Mouse Branco RGR Gamer",
+        marca:"RapidFire",
+        preco:199,
+        arquivo:"m2.jpg",
+        menorPreco: true,
     },
 
 ];    
